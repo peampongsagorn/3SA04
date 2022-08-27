@@ -1,5 +1,5 @@
 import React from "react";
-import { Text } from "react-native";
+import { Text, ImageBackground, StyleSheet } from "react-native";
 import Forecast from "./Forecast";
 
 export default function Weather(props) {
@@ -21,7 +21,8 @@ export default function Weather(props) {
 }
 const styles = StyleSheet.create({
     backdrop: {
-        alignItems: 'center',
+        flexDirection: 'column',
+        justifyContent: 'center',
         width: '100%',
         height: '100%'
     },
