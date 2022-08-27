@@ -8,5 +8,11 @@ class Wish extends React.Component{
         }
       }
   
+      changeWish = () => {
+        this.setState({
+          fwish: "Life is too short for us to dwell on sadness. Cheer up and live life to the fullest."
+        })
+      }  
       
+    
   }
