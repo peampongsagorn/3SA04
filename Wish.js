@@ -14,5 +14,13 @@ class Wish extends React.Component{
         })
       }  
       
-    
+      render(){
+        return (
+          <div>
+            <p>{this.state.fwish}</p>
+            <button
+              type="button" onClick={this.changeWish} >Click me babe</button>
+          </div>
+        );
+      }
   }
